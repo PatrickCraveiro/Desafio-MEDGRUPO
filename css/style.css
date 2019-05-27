@@ -1,0 +1,72 @@
+body{
+    background: #EED;
+
+}
+.sessao{
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+
+
+}
+.tituloprincipal{
+    padding: 55px 0px;
+    width: 100%;
+    position: center;
+    color: rgb(233, 103, 90);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titulo{
+    width: 100%;
+    position: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:40px;
+}
+
+.container{
+    min-width: 360px;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.texto{
+    align-self: center;
+    width: 48%;
+    margin: 0 2%;
+    max-width: 420px;
+    font-size: 20px;
+  
+}
+
+.img{
+    display:block;
+    width: 48%;
+    max-width: 460px;
+    min-width: 360px;
+    margin: 0 2%;
+
+}
+
+.imgprincipal{
+    border: 5px solid white;
+    box-shadow: 3px 3px 4px rgba(0,0,0, 0.3);
+    display: block;
+    margin: 0 auto;
+    max-width: 920px;
+    min-width: 360px;
+    width: 100%;
+    text-align: center;
+}
+
+.containerinverso{
+    flex-direction: row-reverse;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
